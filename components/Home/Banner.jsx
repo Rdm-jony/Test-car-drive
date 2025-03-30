@@ -1,4 +1,5 @@
 import React from 'react';
+import { HomeSearch } from '@/components/Home/HomeSearch';
 
 const Banner = () => {
     return (
@@ -13,6 +14,7 @@ const Banner = () => {
           </p>
         </div>
       </div>
+      <HomeSearch></HomeSearch>
     </section>
     );
 };
