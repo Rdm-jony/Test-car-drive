@@ -1,6 +1,8 @@
 import Banner from "@/components/Home/Banner";
 import FeaturedCars from "@/components/Home/FeaturedCars";
 import Make from "@/components/Home/Make";
+import Choose from "@/components/Home/Choose";
+import Body from "@/components/Home/Body";
 
 
 export default async function Home() {
@@ -11,7 +13,8 @@ export default async function Home() {
       <Banner></Banner>
       <FeaturedCars></FeaturedCars>
       <Make></Make>
-
+      <Choose></Choose>
+      <Body></Body>
     </div>
   );
 }
